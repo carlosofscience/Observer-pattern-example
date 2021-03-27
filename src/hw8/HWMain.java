@@ -1,24 +1,25 @@
 package hw8;
 
-public class hw8 {
+public class HWMain {
 
-	public static void main(String[] args) {
-		System.out.println("Welcome to the Observer Demo");
-		
-		// create the Publisher
+	public static void main(String[] args) 
+	{
 		PublisherImpl pub = new PublisherImpl();
+		EventGenerator eventGen = new EventGenerator();
 		
-		// Create a subscriber
-		SubscriberImpl sub1 = new SubscriberImpl();
+		SubscriberInterface[] subs = 
+		{
+			new OddsSubscriberImpl(),
+			new EvensSubscriberImpl(),
+			new ThreesSubscriberImpl()
+		};
 		
-		// Subscribe to the publisher
-		pub.addSubscriber(sub1);
+		for(SubscriberInterface sub: subs) 
+		{
+			pub.registerSubscriber(sub);
+		}
 		
-		// Create an event
-		MyEvent e1 = new MyEvent("Example Payload String", "a Second example Payload String");
-		
-		// Let everyone know about the new event
-		pub.notifyAll(e1);	
+		eventGen.runSimulation();
 	}
 
 }

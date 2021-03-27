@@ -1,15 +1,15 @@
 package hw8;
 
-public class MyEvent {
+public class Event {
 	
-	private String info1;
-	private String info2;
+	private int EventSequenceNumber;
+	private int EventDataValue;
 	
-	public MyEvent(String i1, String i2) {
-		info1 = i1;
-		info2 = i2;
+	public Event(int seqNum, int data) {
+		EventSequenceNumber = seqNum;
+		EventDataValue = data;
 	}
 
-	public String getInfo1() {return info1;}
-	public String getInfo2() {return info2;}
+	public int getEventSeqNum() {return EventSequenceNumber;}
+	public int getEventDataNum() {return EventDataValue;}
 }
