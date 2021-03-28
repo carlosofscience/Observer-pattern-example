@@ -1,0 +1,969 @@
+Event #0 -> sequence: 0, data: 905
+Event #1 -> sequence: 1, data: 664
+Event #2 -> sequence: 2, data: 784
+Event #3 -> sequence: 3, data: 751
+Event #4 -> sequence: 4, data: 398
+Event #5 -> sequence: 5, data: 195
+Event #6 -> sequence: 6, data: 64
+Event #7 -> sequence: 7, data: 294
+Event #8 -> sequence: 8, data: 893
+Event #9 -> sequence: 9, data: 761
+Event #10 -> sequence: 10, data: 953
+Event #11 -> sequence: 11, data: 997
+Event #12 -> sequence: 12, data: 216
+Event #13 -> sequence: 13, data: 280
+Event #14 -> sequence: 14, data: 422
+Event #15 -> sequence: 15, data: 455
+Event #16 -> sequence: 16, data: 488
+Event #17 -> sequence: 17, data: 890
+Event #18 -> sequence: 18, data: 33
+Event #19 -> sequence: 19, data: 639
+Event #20 -> sequence: 20, data: 43
+Event #21 -> sequence: 21, data: 819
+Event #22 -> sequence: 22, data: 61
+Event #23 -> sequence: 23, data: 751
+Event #24 -> sequence: 24, data: 850
+Event #25 -> sequence: 25, data: 905
+Event #26 -> sequence: 26, data: 420
+Event #27 -> sequence: 27, data: 702
+Event #28 -> sequence: 28, data: 273
+Event #29 -> sequence: 29, data: 790
+Event #30 -> sequence: 30, data: 526
+Event #31 -> sequence: 31, data: 118
+Event #32 -> sequence: 32, data: 319
+Event #33 -> sequence: 33, data: 576
+Event #34 -> sequence: 34, data: 66
+Event #35 -> sequence: 35, data: 686
+Event #36 -> sequence: 36, data: 82
+Event #37 -> sequence: 37, data: 65
+Event #38 -> sequence: 38, data: 219
+Event #39 -> sequence: 39, data: 630
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+Unregistered 30 subscribers
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+Registered 30 subscribers
+Event #40 -> sequence: 40, data: 975
+SubscriberOdds: Event is odd: 975
+SubscriberOdds: Event is odd: 975
+SubscriberOdds: Event is odd: 975
+SubscriberOdds: Event is odd: 975
+SubscriberOdds: Event is odd: 975
+SubscriberOdds: Event is odd: 975
+SubscriberOdds: Event is odd: 975
+SubscriberOdds: Event is odd: 975
+SubscriberOdds: Event is odd: 975
+SubscriberOdds: Event is odd: 975
+SubscriberThrees: Event is divisble 3: 975
+SubscriberThrees: Event is divisble 3: 975
+SubscriberThrees: Event is divisble 3: 975
+SubscriberThrees: Event is divisble 3: 975
+SubscriberThrees: Event is divisble 3: 975
+SubscriberThrees: Event is divisble 3: 975
+SubscriberThrees: Event is divisble 3: 975
+SubscriberThrees: Event is divisble 3: 975
+SubscriberThrees: Event is divisble 3: 975
+SubscriberThrees: Event is divisble 3: 975
+Event #41 -> sequence: 41, data: 510
+SubscriberEvens: Event is even: 510
+SubscriberEvens: Event is even: 510
+SubscriberEvens: Event is even: 510
+SubscriberEvens: Event is even: 510
+SubscriberEvens: Event is even: 510
+SubscriberEvens: Event is even: 510
+SubscriberEvens: Event is even: 510
+SubscriberEvens: Event is even: 510
+SubscriberEvens: Event is even: 510
+SubscriberEvens: Event is even: 510
+SubscriberThrees: Event is divisble 3: 510
+SubscriberThrees: Event is divisble 3: 510
+SubscriberThrees: Event is divisble 3: 510
+SubscriberThrees: Event is divisble 3: 510
+SubscriberThrees: Event is divisble 3: 510
+SubscriberThrees: Event is divisble 3: 510
+SubscriberThrees: Event is divisble 3: 510
+SubscriberThrees: Event is divisble 3: 510
+SubscriberThrees: Event is divisble 3: 510
+SubscriberThrees: Event is divisble 3: 510
+Event #42 -> sequence: 42, data: 261
+SubscriberOdds: Event is odd: 261
+SubscriberOdds: Event is odd: 261
+SubscriberOdds: Event is odd: 261
+SubscriberOdds: Event is odd: 261
+SubscriberOdds: Event is odd: 261
+SubscriberOdds: Event is odd: 261
+SubscriberOdds: Event is odd: 261
+SubscriberOdds: Event is odd: 261
+SubscriberOdds: Event is odd: 261
+SubscriberOdds: Event is odd: 261
+SubscriberThrees: Event is divisble 3: 261
+SubscriberThrees: Event is divisble 3: 261
+SubscriberThrees: Event is divisble 3: 261
+SubscriberThrees: Event is divisble 3: 261
+SubscriberThrees: Event is divisble 3: 261
+SubscriberThrees: Event is divisble 3: 261
+SubscriberThrees: Event is divisble 3: 261
+SubscriberThrees: Event is divisble 3: 261
+SubscriberThrees: Event is divisble 3: 261
+SubscriberThrees: Event is divisble 3: 261
+Event #43 -> sequence: 43, data: 46
+SubscriberEvens: Event is even: 46
+SubscriberEvens: Event is even: 46
+SubscriberEvens: Event is even: 46
+SubscriberEvens: Event is even: 46
+SubscriberEvens: Event is even: 46
+SubscriberEvens: Event is even: 46
+SubscriberEvens: Event is even: 46
+SubscriberEvens: Event is even: 46
+SubscriberEvens: Event is even: 46
+SubscriberEvens: Event is even: 46
+Event #44 -> sequence: 44, data: 470
+SubscriberEvens: Event is even: 470
+SubscriberEvens: Event is even: 470
+SubscriberEvens: Event is even: 470
+SubscriberEvens: Event is even: 470
+SubscriberEvens: Event is even: 470
+SubscriberEvens: Event is even: 470
+SubscriberEvens: Event is even: 470
+SubscriberEvens: Event is even: 470
+SubscriberEvens: Event is even: 470
+SubscriberEvens: Event is even: 470
+Event #45 -> sequence: 45, data: 189
+SubscriberOdds: Event is odd: 189
+SubscriberOdds: Event is odd: 189
+SubscriberOdds: Event is odd: 189
+SubscriberOdds: Event is odd: 189
+SubscriberOdds: Event is odd: 189
+SubscriberOdds: Event is odd: 189
+SubscriberOdds: Event is odd: 189
+SubscriberOdds: Event is odd: 189
+SubscriberOdds: Event is odd: 189
+SubscriberOdds: Event is odd: 189
+SubscriberThrees: Event is divisble 3: 189
+SubscriberThrees: Event is divisble 3: 189
+SubscriberThrees: Event is divisble 3: 189
+SubscriberThrees: Event is divisble 3: 189
+SubscriberThrees: Event is divisble 3: 189
+SubscriberThrees: Event is divisble 3: 189
+SubscriberThrees: Event is divisble 3: 189
+SubscriberThrees: Event is divisble 3: 189
+SubscriberThrees: Event is divisble 3: 189
+SubscriberThrees: Event is divisble 3: 189
+Event #46 -> sequence: 46, data: 641
+SubscriberOdds: Event is odd: 641
+SubscriberOdds: Event is odd: 641
+SubscriberOdds: Event is odd: 641
+SubscriberOdds: Event is odd: 641
+SubscriberOdds: Event is odd: 641
+SubscriberOdds: Event is odd: 641
+SubscriberOdds: Event is odd: 641
+SubscriberOdds: Event is odd: 641
+SubscriberOdds: Event is odd: 641
+SubscriberOdds: Event is odd: 641
+Event #47 -> sequence: 47, data: 858
+SubscriberEvens: Event is even: 858
+SubscriberEvens: Event is even: 858
+SubscriberEvens: Event is even: 858
+SubscriberEvens: Event is even: 858
+SubscriberEvens: Event is even: 858
+SubscriberEvens: Event is even: 858
+SubscriberEvens: Event is even: 858
+SubscriberEvens: Event is even: 858
+SubscriberEvens: Event is even: 858
+SubscriberEvens: Event is even: 858
+SubscriberThrees: Event is divisble 3: 858
+SubscriberThrees: Event is divisble 3: 858
+SubscriberThrees: Event is divisble 3: 858
+SubscriberThrees: Event is divisble 3: 858
+SubscriberThrees: Event is divisble 3: 858
+SubscriberThrees: Event is divisble 3: 858
+SubscriberThrees: Event is divisble 3: 858
+SubscriberThrees: Event is divisble 3: 858
+SubscriberThrees: Event is divisble 3: 858
+SubscriberThrees: Event is divisble 3: 858
+Event #48 -> sequence: 48, data: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+Event #49 -> sequence: 49, data: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+Event #50 -> sequence: 50, data: 548
+SubscriberEvens: Event is even: 548
+SubscriberEvens: Event is even: 548
+SubscriberEvens: Event is even: 548
+SubscriberEvens: Event is even: 548
+SubscriberEvens: Event is even: 548
+SubscriberEvens: Event is even: 548
+SubscriberEvens: Event is even: 548
+SubscriberEvens: Event is even: 548
+SubscriberEvens: Event is even: 548
+SubscriberEvens: Event is even: 548
+Event #51 -> sequence: 51, data: 190
+SubscriberEvens: Event is even: 190
+SubscriberEvens: Event is even: 190
+SubscriberEvens: Event is even: 190
+SubscriberEvens: Event is even: 190
+SubscriberEvens: Event is even: 190
+SubscriberEvens: Event is even: 190
+SubscriberEvens: Event is even: 190
+SubscriberEvens: Event is even: 190
+SubscriberEvens: Event is even: 190
+SubscriberEvens: Event is even: 190
+Event #52 -> sequence: 52, data: 278
+SubscriberEvens: Event is even: 278
+SubscriberEvens: Event is even: 278
+SubscriberEvens: Event is even: 278
+SubscriberEvens: Event is even: 278
+SubscriberEvens: Event is even: 278
+SubscriberEvens: Event is even: 278
+SubscriberEvens: Event is even: 278
+SubscriberEvens: Event is even: 278
+SubscriberEvens: Event is even: 278
+SubscriberEvens: Event is even: 278
+Event #53 -> sequence: 53, data: 854
+SubscriberEvens: Event is even: 854
+SubscriberEvens: Event is even: 854
+SubscriberEvens: Event is even: 854
+SubscriberEvens: Event is even: 854
+SubscriberEvens: Event is even: 854
+SubscriberEvens: Event is even: 854
+SubscriberEvens: Event is even: 854
+SubscriberEvens: Event is even: 854
+SubscriberEvens: Event is even: 854
+SubscriberEvens: Event is even: 854
+Event #54 -> sequence: 54, data: 720
+SubscriberEvens: Event is even: 720
+SubscriberEvens: Event is even: 720
+SubscriberEvens: Event is even: 720
+SubscriberEvens: Event is even: 720
+SubscriberEvens: Event is even: 720
+SubscriberEvens: Event is even: 720
+SubscriberEvens: Event is even: 720
+SubscriberEvens: Event is even: 720
+SubscriberEvens: Event is even: 720
+SubscriberEvens: Event is even: 720
+SubscriberThrees: Event is divisble 3: 720
+SubscriberThrees: Event is divisble 3: 720
+SubscriberThrees: Event is divisble 3: 720
+SubscriberThrees: Event is divisble 3: 720
+SubscriberThrees: Event is divisble 3: 720
+SubscriberThrees: Event is divisble 3: 720
+SubscriberThrees: Event is divisble 3: 720
+SubscriberThrees: Event is divisble 3: 720
+SubscriberThrees: Event is divisble 3: 720
+SubscriberThrees: Event is divisble 3: 720
+Event #55 -> sequence: 55, data: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+SubscriberEvens: Event is even: 22
+Event #56 -> sequence: 56, data: 671
+SubscriberOdds: Event is odd: 671
+SubscriberOdds: Event is odd: 671
+SubscriberOdds: Event is odd: 671
+SubscriberOdds: Event is odd: 671
+SubscriberOdds: Event is odd: 671
+SubscriberOdds: Event is odd: 671
+SubscriberOdds: Event is odd: 671
+SubscriberOdds: Event is odd: 671
+SubscriberOdds: Event is odd: 671
+SubscriberOdds: Event is odd: 671
+Event #57 -> sequence: 57, data: 20
+SubscriberEvens: Event is even: 20
+SubscriberEvens: Event is even: 20
+SubscriberEvens: Event is even: 20
+SubscriberEvens: Event is even: 20
+SubscriberEvens: Event is even: 20
+SubscriberEvens: Event is even: 20
+SubscriberEvens: Event is even: 20
+SubscriberEvens: Event is even: 20
+SubscriberEvens: Event is even: 20
+SubscriberEvens: Event is even: 20
+Event #58 -> sequence: 58, data: 737
+SubscriberOdds: Event is odd: 737
+SubscriberOdds: Event is odd: 737
+SubscriberOdds: Event is odd: 737
+SubscriberOdds: Event is odd: 737
+SubscriberOdds: Event is odd: 737
+SubscriberOdds: Event is odd: 737
+SubscriberOdds: Event is odd: 737
+SubscriberOdds: Event is odd: 737
+SubscriberOdds: Event is odd: 737
+SubscriberOdds: Event is odd: 737
+Event #59 -> sequence: 59, data: 98
+SubscriberEvens: Event is even: 98
+SubscriberEvens: Event is even: 98
+SubscriberEvens: Event is even: 98
+SubscriberEvens: Event is even: 98
+SubscriberEvens: Event is even: 98
+SubscriberEvens: Event is even: 98
+SubscriberEvens: Event is even: 98
+SubscriberEvens: Event is even: 98
+SubscriberEvens: Event is even: 98
+SubscriberEvens: Event is even: 98
+Event #60 -> sequence: 60, data: 718
+SubscriberEvens: Event is even: 718
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+SubscriberEvens: Event is even: 718
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+SubscriberEvens: Event is even: 718
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+SubscriberEvens: Event is even: 718
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+SubscriberEvens: Event is even: 718
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+SubscriberEvens: Event is even: 718
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+SubscriberEvens: Event is even: 718
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+SubscriberEvens: Event is even: 718
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+SubscriberEvens: Event is even: 718
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+SubscriberEvens: Event is even: 718
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+Event #61 -> sequence: 61, data: 275
+SubscriberOdds: Event is odd: 275
+SubscriberOdds: Event is odd: 275
+SubscriberOdds: Event is odd: 275
+SubscriberOdds: Event is odd: 275
+SubscriberOdds: Event is odd: 275
+SubscriberOdds: Event is odd: 275
+SubscriberOdds: Event is odd: 275
+SubscriberOdds: Event is odd: 275
+SubscriberOdds: Event is odd: 275
+SubscriberOdds: Event is odd: 275
+Event #62 -> sequence: 62, data: 322
+Event #63 -> sequence: 63, data: 184
+Event #64 -> sequence: 64, data: 451
+SubscriberOdds: Event is odd: 451
+SubscriberOdds: Event is odd: 451
+SubscriberOdds: Event is odd: 451
+SubscriberOdds: Event is odd: 451
+SubscriberOdds: Event is odd: 451
+SubscriberOdds: Event is odd: 451
+SubscriberOdds: Event is odd: 451
+SubscriberOdds: Event is odd: 451
+SubscriberOdds: Event is odd: 451
+SubscriberOdds: Event is odd: 451
+Event #65 -> sequence: 65, data: 221
+SubscriberOdds: Event is odd: 221
+SubscriberOdds: Event is odd: 221
+SubscriberOdds: Event is odd: 221
+SubscriberOdds: Event is odd: 221
+SubscriberOdds: Event is odd: 221
+SubscriberOdds: Event is odd: 221
+SubscriberOdds: Event is odd: 221
+SubscriberOdds: Event is odd: 221
+SubscriberOdds: Event is odd: 221
+SubscriberOdds: Event is odd: 221
+Event #66 -> sequence: 66, data: 252
+SubscriberThrees: Event is divisble 3: 252
+SubscriberThrees: Event is divisble 3: 252
+SubscriberThrees: Event is divisble 3: 252
+SubscriberThrees: Event is divisble 3: 252
+SubscriberThrees: Event is divisble 3: 252
+SubscriberThrees: Event is divisble 3: 252
+SubscriberThrees: Event is divisble 3: 252
+SubscriberThrees: Event is divisble 3: 252
+SubscriberThrees: Event is divisble 3: 252
+SubscriberThrees: Event is divisble 3: 252
+Event #67 -> sequence: 67, data: 960
+SubscriberThrees: Event is divisble 3: 960
+SubscriberThrees: Event is divisble 3: 960
+SubscriberThrees: Event is divisble 3: 960
+SubscriberThrees: Event is divisble 3: 960
+SubscriberThrees: Event is divisble 3: 960
+SubscriberThrees: Event is divisble 3: 960
+SubscriberThrees: Event is divisble 3: 960
+SubscriberThrees: Event is divisble 3: 960
+SubscriberThrees: Event is divisble 3: 960
+SubscriberThrees: Event is divisble 3: 960
+Event #68 -> sequence: 68, data: 199
+SubscriberOdds: Event is odd: 199
+SubscriberOdds: Event is odd: 199
+SubscriberOdds: Event is odd: 199
+SubscriberOdds: Event is odd: 199
+SubscriberOdds: Event is odd: 199
+SubscriberOdds: Event is odd: 199
+SubscriberOdds: Event is odd: 199
+SubscriberOdds: Event is odd: 199
+SubscriberOdds: Event is odd: 199
+SubscriberOdds: Event is odd: 199
+Event #69 -> sequence: 69, data: 892
+Event #70 -> sequence: 70, data: 299
+SubscriberOdds: Event is odd: 299
+SubscriberOdds: Event is odd: 299
+SubscriberOdds: Event is odd: 299
+SubscriberOdds: Event is odd: 299
+SubscriberOdds: Event is odd: 299
+SubscriberOdds: Event is odd: 299
+SubscriberOdds: Event is odd: 299
+SubscriberOdds: Event is odd: 299
+SubscriberOdds: Event is odd: 299
+SubscriberOdds: Event is odd: 299
+Event #71 -> sequence: 71, data: 987
+SubscriberOdds: Event is odd: 987
+SubscriberOdds: Event is odd: 987
+SubscriberOdds: Event is odd: 987
+SubscriberOdds: Event is odd: 987
+SubscriberOdds: Event is odd: 987
+SubscriberOdds: Event is odd: 987
+SubscriberOdds: Event is odd: 987
+SubscriberOdds: Event is odd: 987
+SubscriberOdds: Event is odd: 987
+SubscriberOdds: Event is odd: 987
+SubscriberThrees: Event is divisble 3: 987
+SubscriberThrees: Event is divisble 3: 987
+SubscriberThrees: Event is divisble 3: 987
+SubscriberThrees: Event is divisble 3: 987
+SubscriberThrees: Event is divisble 3: 987
+SubscriberThrees: Event is divisble 3: 987
+SubscriberThrees: Event is divisble 3: 987
+SubscriberThrees: Event is divisble 3: 987
+SubscriberThrees: Event is divisble 3: 987
+SubscriberThrees: Event is divisble 3: 987
+Event #72 -> sequence: 72, data: 56
+Event #73 -> sequence: 73, data: 271
+SubscriberOdds: Event is odd: 271
+SubscriberOdds: Event is odd: 271
+SubscriberOdds: Event is odd: 271
+SubscriberOdds: Event is odd: 271
+SubscriberOdds: Event is odd: 271
+SubscriberOdds: Event is odd: 271
+SubscriberOdds: Event is odd: 271
+SubscriberOdds: Event is odd: 271
+SubscriberOdds: Event is odd: 271
+SubscriberOdds: Event is odd: 271
+Event #74 -> sequence: 74, data: 277
+SubscriberOdds: Event is odd: 277
+SubscriberOdds: Event is odd: 277
+SubscriberOdds: Event is odd: 277
+SubscriberOdds: Event is odd: 277
+SubscriberOdds: Event is odd: 277
+SubscriberOdds: Event is odd: 277
+SubscriberOdds: Event is odd: 277
+SubscriberOdds: Event is odd: 277
+SubscriberOdds: Event is odd: 277
+SubscriberOdds: Event is odd: 277
+Event #75 -> sequence: 75, data: 460
+Event #76 -> sequence: 76, data: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+SubscriberOdds: Event is odd: 485
+Event #77 -> sequence: 77, data: 107
+SubscriberOdds: Event is odd: 107
+SubscriberOdds: Event is odd: 107
+SubscriberOdds: Event is odd: 107
+SubscriberOdds: Event is odd: 107
+SubscriberOdds: Event is odd: 107
+SubscriberOdds: Event is odd: 107
+SubscriberOdds: Event is odd: 107
+SubscriberOdds: Event is odd: 107
+SubscriberOdds: Event is odd: 107
+SubscriberOdds: Event is odd: 107
+Event #78 -> sequence: 78, data: 659
+SubscriberOdds: Event is odd: 659
+SubscriberOdds: Event is odd: 659
+SubscriberOdds: Event is odd: 659
+SubscriberOdds: Event is odd: 659
+SubscriberOdds: Event is odd: 659
+SubscriberOdds: Event is odd: 659
+SubscriberOdds: Event is odd: 659
+SubscriberOdds: Event is odd: 659
+SubscriberOdds: Event is odd: 659
+SubscriberOdds: Event is odd: 659
+Event #79 -> sequence: 79, data: 694
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+Unregistered 30 subscribers
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+Registered 30 subscribers
+Event #80 -> sequence: 80, data: 704
+Event #81 -> sequence: 81, data: 575
+SubscriberOdds: Event is odd: 575
+SubscriberOdds: Event is odd: 575
+SubscriberOdds: Event is odd: 575
+SubscriberOdds: Event is odd: 575
+SubscriberOdds: Event is odd: 575
+SubscriberOdds: Event is odd: 575
+SubscriberOdds: Event is odd: 575
+SubscriberOdds: Event is odd: 575
+SubscriberOdds: Event is odd: 575
+SubscriberOdds: Event is odd: 575
+Event #82 -> sequence: 82, data: 418
+Event #83 -> sequence: 83, data: 573
+SubscriberOdds: Event is odd: 573
+SubscriberOdds: Event is odd: 573
+SubscriberOdds: Event is odd: 573
+SubscriberOdds: Event is odd: 573
+SubscriberOdds: Event is odd: 573
+SubscriberOdds: Event is odd: 573
+SubscriberOdds: Event is odd: 573
+SubscriberOdds: Event is odd: 573
+SubscriberOdds: Event is odd: 573
+SubscriberOdds: Event is odd: 573
+SubscriberThrees: Event is divisble 3: 573
+SubscriberThrees: Event is divisble 3: 573
+SubscriberThrees: Event is divisble 3: 573
+SubscriberThrees: Event is divisble 3: 573
+SubscriberThrees: Event is divisble 3: 573
+SubscriberThrees: Event is divisble 3: 573
+SubscriberThrees: Event is divisble 3: 573
+SubscriberThrees: Event is divisble 3: 573
+SubscriberThrees: Event is divisble 3: 573
+SubscriberThrees: Event is divisble 3: 573
+Event #84 -> sequence: 84, data: 473
+SubscriberOdds: Event is odd: 473
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+SubscriberOdds: Event is odd: 473
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+SubscriberOdds: Event is odd: 473
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+SubscriberOdds: Event is odd: 473
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+SubscriberOdds: Event is odd: 473
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+SubscriberOdds: Event is odd: 473
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+SubscriberOdds: Event is odd: 473
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+SubscriberOdds: Event is odd: 473
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+SubscriberOdds: Event is odd: 473
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+SubscriberOdds: Event is odd: 473
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+Event #85 -> sequence: 85, data: 978
+SubscriberThrees: Event is divisble 3: 978
+SubscriberThrees: Event is divisble 3: 978
+SubscriberThrees: Event is divisble 3: 978
+SubscriberThrees: Event is divisble 3: 978
+SubscriberThrees: Event is divisble 3: 978
+SubscriberThrees: Event is divisble 3: 978
+SubscriberThrees: Event is divisble 3: 978
+SubscriberThrees: Event is divisble 3: 978
+SubscriberThrees: Event is divisble 3: 978
+SubscriberThrees: Event is divisble 3: 978
+Event #86 -> sequence: 86, data: 724
+Event #87 -> sequence: 87, data: 537
+SubscriberThrees: Event is divisble 3: 537
+SubscriberThrees: Event is divisble 3: 537
+SubscriberThrees: Event is divisble 3: 537
+SubscriberThrees: Event is divisble 3: 537
+SubscriberThrees: Event is divisble 3: 537
+SubscriberThrees: Event is divisble 3: 537
+SubscriberThrees: Event is divisble 3: 537
+SubscriberThrees: Event is divisble 3: 537
+SubscriberThrees: Event is divisble 3: 537
+SubscriberThrees: Event is divisble 3: 537
+Event #88 -> sequence: 88, data: 112
+Event #89 -> sequence: 89, data: 915
+SubscriberThrees: Event is divisble 3: 915
+SubscriberThrees: Event is divisble 3: 915
+SubscriberThrees: Event is divisble 3: 915
+SubscriberThrees: Event is divisble 3: 915
+SubscriberThrees: Event is divisble 3: 915
+SubscriberThrees: Event is divisble 3: 915
+SubscriberThrees: Event is divisble 3: 915
+SubscriberThrees: Event is divisble 3: 915
+SubscriberThrees: Event is divisble 3: 915
+SubscriberThrees: Event is divisble 3: 915
+Event #90 -> sequence: 90, data: 871
+Event #91 -> sequence: 91, data: 17
+Event #92 -> sequence: 92, data: 119
+Event #93 -> sequence: 93, data: 83
+Event #94 -> sequence: 94, data: 353
+Event #95 -> sequence: 95, data: 614
+Event #96 -> sequence: 96, data: 535
+Event #97 -> sequence: 97, data: 157
+Event #98 -> sequence: 98, data: 299
+Event #99 -> sequence: 99, data: 735
+SubscriberThrees: Event is divisble 3: 735
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+SubscriberThrees: Event is divisble 3: 735
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+SubscriberThrees: Event is divisble 3: 735
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+SubscriberThrees: Event is divisble 3: 735
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+SubscriberThrees: Event is divisble 3: 735
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+SubscriberThrees: Event is divisble 3: 735
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+SubscriberThrees: Event is divisble 3: 735
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+SubscriberThrees: Event is divisble 3: 735
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+SubscriberThrees: Event is divisble 3: 735
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+SubscriberThrees: Event is divisble 3: 735
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+Event #100 -> sequence: 100, data: 306
+Event #101 -> sequence: 101, data: 974
+Event #102 -> sequence: 102, data: 598
+Event #103 -> sequence: 103, data: 855
+Event #104 -> sequence: 104, data: 220
+Event #105 -> sequence: 105, data: 633
+Event #106 -> sequence: 106, data: 903
+Event #107 -> sequence: 107, data: 28
+Event #108 -> sequence: 108, data: 680
+Event #109 -> sequence: 109, data: 928
+Event #110 -> sequence: 110, data: 368
+Event #111 -> sequence: 111, data: 805
+Event #112 -> sequence: 112, data: 448
+Event #113 -> sequence: 113, data: 997
+Event #114 -> sequence: 114, data: 405
+Event #115 -> sequence: 115, data: 235
+Event #116 -> sequence: 116, data: 749
+Event #117 -> sequence: 117, data: 933
+Event #118 -> sequence: 118, data: 974
+Event #119 -> sequence: 119, data: 221
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+Unregistered 30 subscribers
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+Registered 30 subscribers
+Event #120 -> sequence: 120, data: 570
+Event #121 -> sequence: 121, data: 632
+Event #122 -> sequence: 122, data: 920
+Event #123 -> sequence: 123, data: 70
+Event #124 -> sequence: 124, data: 772
+Event #125 -> sequence: 125, data: 89
+Event #126 -> sequence: 126, data: 635
+Event #127 -> sequence: 127, data: 750
+Event #128 -> sequence: 128, data: 694
+Event #129 -> sequence: 129, data: 916
+Event #130 -> sequence: 130, data: 931
+Event #131 -> sequence: 131, data: 5
+Event #132 -> sequence: 132, data: 223
+Event #133 -> sequence: 133, data: 888
+Event #134 -> sequence: 134, data: 291
+Event #135 -> sequence: 135, data: 177
+Event #136 -> sequence: 136, data: 945
+Event #137 -> sequence: 137, data: 927
+Event #138 -> sequence: 138, data: 852
+Event #139 -> sequence: 139, data: 330
+Event #140 -> sequence: 140, data: 877
+Event #141 -> sequence: 141, data: 40
+Event #142 -> sequence: 142, data: 339
+Event #143 -> sequence: 143, data: 9
+Event #144 -> sequence: 144, data: 437
+Event #145 -> sequence: 145, data: 384
+Event #146 -> sequence: 146, data: 886
+Event #147 -> sequence: 147, data: 764
+Event #148 -> sequence: 148, data: 787
+Event #149 -> sequence: 149, data: 803
+Event #150 -> sequence: 150, data: 119
+Event #151 -> sequence: 151, data: 398
+Event #152 -> sequence: 152, data: 394
+Event #153 -> sequence: 153, data: 910
+Event #154 -> sequence: 154, data: 167
+Event #155 -> sequence: 155, data: 742
+Event #156 -> sequence: 156, data: 699
+Event #157 -> sequence: 157, data: 3
+Event #158 -> sequence: 158, data: 259
+Event #159 -> sequence: 159, data: 644
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberEvens
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberOdds
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+ - unregistering Subscriber -> class: class hw8.SubscriberThrees
+Unregistered 30 subscribers
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberEvens
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberOdds
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+ + registering Subscriber -> class: class hw8.SubscriberThrees
+Registered 30 subscribers
+Event #160 -> sequence: 160, data: 53
+Event #161 -> sequence: 161, data: 918
+Event #162 -> sequence: 162, data: 401
+Event #163 -> sequence: 163, data: 773
+Event #164 -> sequence: 164, data: 680
+Event #165 -> sequence: 165, data: 181
+Event #166 -> sequence: 166, data: 226
+Event #167 -> sequence: 167, data: 801
+Event #168 -> sequence: 168, data: 279
+Event #169 -> sequence: 169, data: 698
+Event #170 -> sequence: 170, data: 469
+Event #171 -> sequence: 171, data: 475
+Event #172 -> sequence: 172, data: 8
+Event #173 -> sequence: 173, data: 570
+Event #174 -> sequence: 174, data: 679
+Event #175 -> sequence: 175, data: 124
+Event #176 -> sequence: 176, data: 47
+Event #177 -> sequence: 177, data: 515
+Event #178 -> sequence: 178, data: 740
+Event #179 -> sequence: 179, data: 183
+Event #180 -> sequence: 180, data: 595
+Event #181 -> sequence: 181, data: 831
+Event #182 -> sequence: 182, data: 464
+Event #183 -> sequence: 183, data: 368
+Event #184 -> sequence: 184, data: 194
+Event #185 -> sequence: 185, data: 778
+Event #186 -> sequence: 186, data: 36
+Event #187 -> sequence: 187, data: 261
+Event #188 -> sequence: 188, data: 487
+Event #189 -> sequence: 189, data: 745
+Event #190 -> sequence: 190, data: 369
+Event #191 -> sequence: 191, data: 195
+Event #192 -> sequence: 192, data: 110
+Event #193 -> sequence: 193, data: 620
+Event #194 -> sequence: 194, data: 496
+Event #195 -> sequence: 195, data: 475
+Event #196 -> sequence: 196, data: 221
+Event #197 -> sequence: 197, data: 304
+Event #198 -> sequence: 198, data: 962
+Event #199 -> sequence: 199, data: 189
+
