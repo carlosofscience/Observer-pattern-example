@@ -16,8 +16,8 @@ public abstract class AbstractEventDrivenSubscriber implements ISubscriber{
 	}
 	
 	//executes when updated by publisher
-	public void update() {
-		
+	public boolean update() {
+		return false;
 	}
 	
 }

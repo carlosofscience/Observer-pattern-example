@@ -8,8 +8,8 @@ public class SubscriberThrees extends AbstractEventDrivenSubscriber{
 	}
 	
 	@Override 
-	public void update() {
-		
+	public boolean update() {
+		boolean result = false;
 		//gets updated by publisher
 		int data = publisher.state.getEventDataValue();
 		
@@ -17,6 +17,7 @@ public class SubscriberThrees extends AbstractEventDrivenSubscriber{
 			eventsReceived++;
 			if(eventsReceived <= threshold) {
 				System.out.printf("SubscriberThrees: Event is divisble 3: %d\n", data);
+				result = true;
 			}
 			
 			if(eventsReceived == threshold) {
@@ -24,6 +25,8 @@ public class SubscriberThrees extends AbstractEventDrivenSubscriber{
 			}
 			
 		}
+		
+		return result;
 		
 	}
 

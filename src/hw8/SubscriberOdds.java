@@ -8,8 +8,9 @@ public class SubscriberOdds extends AbstractEventDrivenSubscriber{
 	}
 	
 	@Override 
-	public void update() {
-		
+	public boolean update() {
+		boolean result = false;
+
 		//gets updated by publisher
 		int data = publisher.state.getEventDataValue();
 		
@@ -17,6 +18,7 @@ public class SubscriberOdds extends AbstractEventDrivenSubscriber{
 			eventsReceived++;
 			if(eventsReceived <= threshold) {
 				System.out.printf("SubscriberOdds: Event is odd: %d\n", data);
+				result = true;
 			}
 			
 			if(eventsReceived == threshold) {
@@ -24,7 +26,8 @@ public class SubscriberOdds extends AbstractEventDrivenSubscriber{
 			}
 			
 		}
-		
+		return result;
+
 	}
 
 }

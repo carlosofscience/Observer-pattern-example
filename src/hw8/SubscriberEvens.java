@@ -8,7 +8,9 @@ public class SubscriberEvens extends AbstractEventDrivenSubscriber{
 	}
 	
 	@Override 
-	public void update() {
+	public boolean update() {
+		
+		boolean result = false;
 		
 		//gets updated by publisher
 		int data = publisher.state.getEventDataValue();
@@ -17,6 +19,7 @@ public class SubscriberEvens extends AbstractEventDrivenSubscriber{
 			eventsReceived++;
 			if(eventsReceived <= threshold) {
 				System.out.printf("SubscriberEvens: Event is even: %d\n", data);
+				result = true;
 			}
 			
 			if(eventsReceived == threshold) {
@@ -24,6 +27,8 @@ public class SubscriberEvens extends AbstractEventDrivenSubscriber{
 			}
 			
 		}
+		
+		return result;
 		
 	}
 
