@@ -1,40 +1,64 @@
 package hw8;
 
-import java.util.ArrayList;
-
-public class EventGenerator {
-	ArrayList<SubscriberInterface> subscribers = new ArrayList<SubscriberInterface>();
-
-	public EventGenerator() {}
+public class EventGenerator extends AbstractEventPublisher{
+	
+	private static int EUID; //event unique id
+	
+	EventGenerator(){
+		super();
+		EUID = 0;
+		state = null;
+		//creating 10 subscribers of each subscriber variation
+		//passing reference to this publisher to each new subscriber
+		for (int i=0; i < 30; i++) {
+			if(i < 10) {
+				subscribers.add(new SubscriberEvens(this));
+			}else if (i < 20){
+				subscribers.add(new SubscriberOdds(this));
+			}else {
+				subscribers.add(new SubscriberThrees(this));
+			}
+		}
+	}
 	
 	public void runSimulation() {
-		//create a random number to notify each subscriber
-		//simulation for 200 iterations
-		int max = 10000, min = 0, data = (int) (Math.random() * (max - min + 1) + min);
-		
-		for (int sequence=0; sequence < 200; sequence++)
-		{
-			System.out.printf("sequence: %d, data: %d\n", sequence, data);
-			Event event =  new Event(sequence, data);
-			//if sequence is divisible by 40 re-register subscribers
-			if(sequence % 40 == 0) {
-				//re-register
-				for (SubscriberInterface subscriber: subscribers) {
-					subscriber.reRegister();
-				}
-			}else {
-				for (SubscriberInterface subscriber: subscribers) {
-					subscriber.notifySubscriber(event);
-				}
-			}
+		for (int index=0; index < 200; index++) {
 			
-			//generate new random data
-			data = (int) (Math.random() * (max - min + 1) + min);
+			if(index > 0 && index % 40 == 0)
+				reRegisterAll();
+			
+			//sets the current state of the Publisher
+			setState(generateEvent());
+
+			//printing 
+			System.out.printf("Event #%d -> sequence: %d, data: %d\n", index, state.getEventSequenceNumber(), state.getEventDataValue());
+
+			//notify all subscribers about it
+			notifySubscriber();
 		}
+		
 		
 	}
 	
-	private Event generateEvent() {
-		return new Event(0,0); //change this to UID
+	private Event generateEvent() {//generates an state (event)
+		int min = 0, max = 1000;
+		return new Event(EUID++, (int) (Math.random()* (max - min) + min));
 	}
+	
+	private void reRegisterAll() {
+		
+		//unregistering all subscribers
+		for(AbstractEventDrivenSubscriber subscriber: subscribers) {
+			unregisterSubscriber(subscriber);
+		}		
+		System.out.printf("Unregistered %d subscribers\n", subscribers.size());
+		
+		//registering all subscribers back
+		for(AbstractEventDrivenSubscriber subscriber: subscribers) {
+			registerSubscriber(subscriber);
+		}
+		System.out.printf("Registered %d subscribers\n", subscribers.size());
+
+	}
+
 }
