@@ -2,7 +2,7 @@ package hw8;
 
 public class SubscriberEvens extends AbstractEventDrivenSubscriber{
 
-	SubscriberEvens(AbstractEventPublisher publisher) {
+	public SubscriberEvens(AbstractEventPublisher publisher) {
 		super(publisher);
 		threshold = 14;
 	}

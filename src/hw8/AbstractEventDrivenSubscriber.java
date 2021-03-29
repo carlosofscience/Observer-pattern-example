@@ -20,4 +20,10 @@ public abstract class AbstractEventDrivenSubscriber implements ISubscriber{
 		return false;
 	}
 	
+	public boolean isRegistered() {
+		return this.isRegistered;
+	}
+	public void setTreshold(int threshold) {
+		this.threshold = threshold;
+	}
 }

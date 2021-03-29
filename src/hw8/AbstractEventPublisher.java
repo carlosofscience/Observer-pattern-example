@@ -11,7 +11,7 @@ public abstract class AbstractEventPublisher implements IPublisher{
 		subscribers = new ArrayList<AbstractEventDrivenSubscriber>();
 	}
 	
-	protected void setState(Event e) {//sets the state (event)
+	public void setState(Event e) {//sets the state (event)
 		state = e;
 	}
 	

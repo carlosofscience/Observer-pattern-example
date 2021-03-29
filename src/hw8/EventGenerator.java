@@ -4,7 +4,7 @@ public class EventGenerator extends AbstractEventPublisher{
 	
 	private static int EUID; //event unique id
 	
-	EventGenerator(){
+	public EventGenerator(){
 		super();
 		EUID = 0;
 		state = null;
