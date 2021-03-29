@@ -1,4 +1,4 @@
-package hw8;
+package observer_pattern;
 
 public class Event {
 	private int eventSequenceNumber;

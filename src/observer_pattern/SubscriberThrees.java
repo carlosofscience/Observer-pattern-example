@@ -1,24 +1,22 @@
-package hw8;
+package observer_pattern;
 
-public class SubscriberEvens extends AbstractEventDrivenSubscriber{
+public class SubscriberThrees extends AbstractEventDrivenSubscriber{
 
-	public SubscriberEvens(AbstractEventPublisher publisher) {
+	SubscriberThrees(AbstractEventPublisher publisher) {
 		super(publisher);
 		threshold = 14;
 	}
 	
 	@Override 
 	public boolean update() {
-		
 		boolean result = false;
-		
 		//gets updated by publisher
 		int data = publisher.state.getEventDataValue();
 		
-		if(data % 2 == 0) {
+		if(data % 3 == 0) {
 			eventsReceived++;
 			if(eventsReceived <= threshold) {
-				System.out.printf("SubscriberEvens: Event is even: %d\n", data);
+				System.out.printf("SubscriberThrees: Event is divisble 3: %d\n", data);
 				result = true;
 			}
 			

@@ -6,10 +6,10 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import hw8.AbstractEventPublisher;
-import hw8.Event;
-import hw8.EventGenerator;
-import hw8.SubscriberEvens;
+import observer_pattern.AbstractEventPublisher;
+import observer_pattern.Event;
+import observer_pattern.EventGenerator;
+import observer_pattern.SubscriberEvens;
 
 class AbstractEventPublisherTest {
 

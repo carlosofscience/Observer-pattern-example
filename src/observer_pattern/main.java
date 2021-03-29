@@ -1,6 +1,6 @@
-package hw8;
+package observer_pattern;
 
-public class HWMain {
+public class main {
 	
 	public static void main(String[] args) {
 		EventGenerator eventGenerator = new EventGenerator();
